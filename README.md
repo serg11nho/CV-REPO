@@ -1,6 +1,6 @@
-##FULLSTACK DEV - CV
+## FULLSTACK DEV - CV
 
-###Hello!
+### Hello!
 
 My name is Sergio and this is one of my testing repositories. In this repository you will see a hypothetic curriculum vitae (but also one that I would like to have). Here you will see:
 
