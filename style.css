@@ -1,7 +1,105 @@
-body (
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
-)
+* {
+  --primary-color: #333;
+  --secondary-color: #f4f4f4;
+  --accent-color: #007bff;
+  --font-family: 'Merriweather', serif;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  margin: 0;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+main,
+section,
+header {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.192);
+  border-radius: 8px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--primary-color);
+  font-weight: 700;
+  margin-top: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+  border-bottom: 2px solid var(--primary-color);
+  padding-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.8em;
+}
+
+h3 {
+  font-size: 1.5em;
+  color: var(--accent-color);
+  border-bottom: 1px solid var(--accent-color);
+  padding-bottom: 5px;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: var(--primary-color);
+  margin: 20px 0;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+ul {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+/* Estilos específicos para secciones y elementos */
+header h1,
+header hr {
+  border-color: #ccc;
+  background: #caa8a8;
+}
+
+main h2,
+main p {
+  text-align: center;
+}
+
+section h4 {
+  margin-bottom: 5px;
+  color: var(--primary-color);
+}
+
+section p {
+  font-style: italic;
+  font-size: 0.9em;
+  color: #666;
+  margin-top: 0;
+}
+
+section ul {
+  list-style-type: square;
+}
+
+section ul li {
+  margin-bottom: 8px;
+}
